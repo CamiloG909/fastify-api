@@ -1,2 +1,2 @@
 # Fastify API
-Basic API with Fastify
+Basic API with Fastify and MongoDB
