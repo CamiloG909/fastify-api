@@ -20,10 +20,10 @@ Deploy✨ https://fastify-api.camilog909.repl.co/products
 
 ```json
 {
-	title: String,
-	price: Number,
-	image: String,
-	description: String,
-	amount: Number,
+	"title": "Car",
+	"price": 15000,
+	"image": "Image url",
+	"description": "Some text",
+	"amount": 12
 }
 ```
