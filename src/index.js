@@ -1,4 +1,5 @@
 require("./utils/database");
+require("dotenv").config();
 const fastify = require("fastify")({
 	logger: true,
 });
@@ -15,8 +16,10 @@ productsRoutes.forEach((route) => {
 	fastify.route(route);
 });
 
+const port = process.env.PORT || 4000;
+
 const start = async () => {
-	await fastify.listen(4000);
+	await fastify.listen(port);
 	fastify.log.info(`server listening on ${fastify.server.address().port}`);
 };
 

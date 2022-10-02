@@ -11,6 +11,7 @@ const Product = new Schema(
 	{
 		timestamps: true,
 		versionKey: false,
+		collection: "fastify-api",
 	}
 );
 
