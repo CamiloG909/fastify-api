@@ -1,6 +1,6 @@
 # Fastify API
 
-Deploy✨ https://fastify-api.camilog909.repl.co/products
+Deploy✨ https://fastify-api-camilog90.up.railway.app/products
 
 ## Routes
 
